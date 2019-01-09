@@ -16,3 +16,8 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+ .description-content {
+  text-align: left;
+  white-space: pre-line;
+ }
