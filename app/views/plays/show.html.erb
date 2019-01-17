@@ -1,11 +1,11 @@
-<div class='container'>
-  <h2><%= @play.title %></h2>
-  <h3><%= @play.director %></h3>
+<div>
+  <h3><%= @play.title %></h3>
+  <h4><%= @play.director %> 감 독</h4>
   <div class="description-content">
   <p><%= @play.description %></p>
-  </div>
-
+</div>
+<div>
   <%= link_to 'Back', root_path %>
   <%= link_to 'Edit', edit_play_path(@play) %>
-  <%= link_to 'Delete', play_path(@play), method: :delete, data: { confirm: '삭제 하시겠습니까?' } %>
+  <%= link_to 'Delete', play_path(@play), method: :delete, data: { confirm: '진짜 지운다!' } %>
 </div>
