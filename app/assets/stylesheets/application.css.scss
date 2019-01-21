@@ -17,6 +17,11 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
+body {
+  background-color: #f8f8f8;
+}
+
+
  .description-content {
   text-align: left;
   white-space: pre-line;
